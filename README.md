@@ -1,7 +1,7 @@
 # all_sites
 This is just a compilation or collection of the sites that I have built.
 
-## BetterClicker
+# BetterClicker
 This is a branch I made to make [CLICKER](https://k-ppa.github.io/all-sites/CLICKER/Clicker.html) better. Please help me by adding some stuff to CLICKER to fix some bugs/make it better.
 
 ## Structure
