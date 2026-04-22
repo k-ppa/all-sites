@@ -21,7 +21,6 @@ These are the other websites that I have built.
 - [The first website that I built](https://fehdzu.mimo.run)
 
 ___  
-___  
 
 ## *DebugClicker*
 
