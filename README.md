@@ -1,7 +1,7 @@
 # <u>**all-sites**</u>
 
 This is just a compilation or collection of the sites that I have built.  
-If you can, please help me improve these websites through GItHub
+If you can, please help me improve these websites through GitHub
 
 ## Structure
 
