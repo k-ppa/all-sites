@@ -1,7 +1,6 @@
-const count = (document.getElementById("counter"));
+const count = document.getElementById("counter");
 let pandar = 0;
 let dark = false;
-let starting = true;
 let target = false;
 let interval = false;
 const moreButton = document.getElementById("moreButton");
@@ -88,19 +87,19 @@ function moree() {
 	sideMenu.style.display = "block";
 	overlay.style.display = "block";
 	sideMenu.style.animation = "slideInLeft 0.1s ease-out forwards";
-	overlay.style.animation = "fadeIn 0.1s ease-in forwards"
+	overlay.style.animation = "fadeIn 0.1s ease-in forwards";
 }
 
 function closeMenu() {
 	if (maximumm === 0 && target) {
 		alert("Enter target number");
 	} else {
-		sideMenu.style.animation = "slideOutLeft 0.1s ease-in forwards"
-		overlay.style.animation = "fadeOut 0.1s ease-in forwards"
+		sideMenu.style.animation = "slideOutLeft 0.1s ease-in forwards";
+		overlay.style.animation = "fadeOut 0.1s ease-in forwards";
 		setTimeout(() => {
 			sideMenu.style.display = "none";
 			overlay.style.display = "none";
-		}, 100)
+		}, 100);
 		go();
 	}
 }

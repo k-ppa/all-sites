@@ -2,7 +2,7 @@ body {
   background: rgb(15, 15, 15);
   text-align: center;
   color: #f3f3f3;
-  font-family: Times New Roman;
+  font-family: 'Times New Roman';
 }
 
 #heading {
@@ -14,7 +14,7 @@ body {
 }
 
 #counter {
-  font-family: Times New Roman;
+  font-family: 'Times New Roman';
   padding: 10vw;
   border-radius: 5vh;
   margin: 10vw 3vw 5vw 3vw;
@@ -26,7 +26,7 @@ body {
 }
 
 #counting {
-  font-family: Times New Roman;
+  font-family: 'Times New Roman';
   background-color: dimgrey;
   border-radius: 5vh;
   border-color: black;
@@ -37,7 +37,7 @@ body {
 }
 
 #reset {
-  font-family: Times New Roman;
+  font-family: 'Times New Roman';
   background-color: dimgray;
   border-radius: 5vh;
   border-color: black;
