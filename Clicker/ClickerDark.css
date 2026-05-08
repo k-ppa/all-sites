@@ -1,17 +1,8 @@
 body {
-  background-color: azure;
+  background: rgb(15, 15, 15);
   text-align: center;
-  font-family: Times New Roman;
-}
-
-.topButtons {
-  background-color: azure;
-  border: 0;
-}
-
-img {
-  height: 6vw;
-  max-height: 18vh;
+  color: #f3f3f3;
+  font-family: "Times New Roman";
 }
 
 #heading {
@@ -23,35 +14,39 @@ img {
 }
 
 #counter {
+  font-family: "Times New Roman";
   padding: 10vw;
-  margin: 10vw 3vw 5vw 3vw;
   border-radius: 5vh;
-  background: navajowhite;
+  margin: 10vw 3vw 5vw 3vw;
+  background-color: navajowhite;
+  border-color: black;
   text-align: center;
   font-size: 10vh;
+  color: black;
 }
 
 #counting {
-  font-family: Times New Roman;
-  background: purple;
+  font-family: "Times New Roman";
+  background-color: dimgrey;
   border-radius: 5vh;
-  border-color: white;
+  border-color: black;
   font-size: 10vh;
   text-align: center;
   padding: 10vw;
-  color: white;
+  color: #f3f3f3;
 }
 
 #reset {
-  font-family: Times New Roman;
-  background-color: purple;
+  font-family: "Times New Roman";
+  background-color: dimgray;
   border-radius: 5vh;
-  border-color: white;
+  border-color: black;
   font-size: 9vh;
   text-align: center;
   padding: 9vw;
-  color: white;
+  color: #f3f3f3;
 }
+
 
 #overlay {
   top: 0;
@@ -65,36 +60,60 @@ img {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0.3; }
-  to { opacity: 1; }
+  from {
+    opacity: 0.3;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut {
-  from { opacity: 1; }
-  to { opacity: 0; }
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
 
 #sideMenu {
   top: 0;
   left: 0;
+  width: 80vw;
   margin: 2vw;
   border-radius: 4vw;
-  width: 80vw;
   height: 100dvh;
   display: none;
   z-index: 10;
   position: fixed;
-  background-color: azure;
+  background: rgb(28, 28, 28);
 }
 
 @keyframes slideInLeft {
-  from { transform: translateX(-100%); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes slideOutLeft {
-  from { transform: translateX(0); opacity: 1; }
-  to { transform: translateX(-100%); opacity: 0; }
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
 }
 
 #sideUnderline {
@@ -120,10 +139,11 @@ img {
 
 #stepValue {
   padding: 2vw 4vw 2vw 4vw;
-  margin: 0;
   border-radius: 5vh;
+  margin: 0;
   background-color: navajowhite;
   border-color: white;
+  color: black;
   font-size: 10vh;
   display: none;
   text-align: right;
@@ -131,10 +151,11 @@ img {
 
 #maximum {
   padding: 2vw 4vw 2vw 4vw;
-  margin: 0;
   border-radius: 5vh;
+  margin: 0;
   background-color: navajowhite;
   border-color: white;
+  color: black;
   font-size: 10vh;
   display: none;
   text-align: left;
