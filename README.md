@@ -1,15 +1,18 @@
-# all_sites
-This is just a compilation or collection of the sites that I have built.
+# all-sites
 
-## Structure
-You'll land in the homepage from where you can navigate to other websites that I have built.
+This is just a collection of the sites that I have built.  
+If you can, please help me improve these websites through [GitHub](https://github.com/k-ppa/all-sites). Please help me by fixing Issues, adding Features or telling me about them through [GitHub](https://github.com/k-ppa/all-sites/issues)
 
-# Main webpage
-https://k-ppa.github.io/all-sites/  
-This is just the Home page that leads you to the other websites that I have built.
-# Sub sites
-These are the other websites that I have built.
-- [Clicker (Tally counter)](https://dngxe1.mimo.run)
-- [The Forest Store (very incomplete)](https://ay7xj8.mimo.run)
-- [Nasham Pandaram](https://d5nr27.mimo.run)
-- [The first website that I built](https://fehdzu.mimo.run)
+## Sites
+
+- Clicker
+- Forest Store
+- Nasham Pandaram
+- 1st website
+
+___
+
+## *Web*
+
+This is the branch that will be published through github pages.  
+This branch has the cleanest commit history (I think?)
